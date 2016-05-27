@@ -1,0 +1,38 @@
+{
+  "name": "node-ts-starter",
+  "version": "0.0.1",
+  "description": "A starting place for creating Node.js packages in TypeScript",
+  "main": "dist/node/index.js",
+  "scripts": {
+    "test": "gulp ut",
+    "setup": "npm install -g typings && npm install && typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwpeters/node-ts-starter.git"
+  },
+  "author": "Kevin Peters <kwpeters@gmail.com>",
+  "license": "SEE LICENSE IN license.md",
+  "bugs": {
+    "url": "https://github.com/kwpeters/node-ts-starter/issues"
+  },
+  "typings": "./dist/node/index.d.ts",
+  "homepage": "https://github.com/kwpeters/node-ts-starter",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "3.9.1",
+    "gulp-helpers": "kwpeters/gulp-helpers#2d3712a",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tape": "0.0.7",
+    "gulp-typescript": "^2.13.0",
+    "tap-min": "^1.1.0",
+    "tape": "4.4.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "lodash": "^4.6.1"
+  }
+}
